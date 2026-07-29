@@ -16,19 +16,19 @@ I built essentially the entire stack: cross-platform HPC simulations, applicatio
 
 The simulators searched for robust systems in two ways. *Brute force* swept a defined set of parameter combinations, then a second program extracted high-performing "neighbor" clusters. *Genetic* search covered a far larger parameter space, locating robust clusters in process.
 
-Accuracy was enforced structurally. We grew from one research group, consisting primarily of Paul Rabar, a mathematician, another Turtle, with whom we did research, and me, to three groups: Dr. Francisco Vaca lead our Chicago office R&D, along with another Fermilab physicist, and an engineer. On the East Coast, a mathematician and a programmer formed second group, and myself yhe third in Los Angeles. 
+We grew from one research group, consisting primarily of Paul Rabar, a mathematician, another Turtle, with whom we did research, and myself, to three groups: Dr. Francisco Vaca lead our Chicago office R&D, along with another Fermilab physicist, and an engineer. On the East Coast, a mathematician and a programmer formed second group, and me the third in Los Angeles. 
 
-No group shared code. Before launching any large simulations runs, i.e. simulations that would be processing a large set of parameter combinations, the system code was re-implemented independently, and results of parameter subset were cross-checked to three decimals. 
+Accuracy was enforced structurally. Three research groups wrote independent code, we shared nothing. Every system concept tested was verified between groups, i.e. at least two groups ran a set of parameter combinations, compared results, and flagged any discrepancies that mismatched at two decimals. All discrepancies were explained, or resolved, before launching any large-scale simulation runs. 
 
-Daily I made the final call whether orders were good to go — which meant our real-time and simulated positions were an exact match, and every discrepancy was examined and resolved, e.g. proving a rounding error was a rounding error.
+As Chief Operator, I made the daily final call whether orders were good to go — which meant our real-time and simulated positions were an exact match, and every discrepancy was examined and resolved. If good, the orders were sent to New York RMR trading department for execution.
 
 ### From the metal up
 
-I ran Rabar's mission-critical infrastructure end to end — selecting, administering, and maintaining all production hardware, including servers, switches, firewalls, and the 150 rack servers I installed and maintained at a USC colo — while writing, debugging, and executing nearly all of our C/C++, C#, and SQL system code. 
+I ran Rabar's mission-critical infrastructure end to end — selecting, administering, and maintaining all production hardware, including servers, switches, firewalls, and the 150 rack servers we housed at USC colo, which I maintained, while research, developing, and debugging continued. 
 
 ### Security
 
-A parallel track since reading *The Cuckoo's Egg* in 1989 — for years my browser homepages were stacked with comp-sec sites for a steady daily read. Around 2013, seeing that the scale of hacking operations was about to go thermal, I began experimenting with Backtrack/Kali, Cain & Abel, and related tooling. Since then: wiring and executing exploit chains like Eternal Blue/Double Pulsar in isolation, working through challenges at PicoCTF, and rooting 14 machines on Hack The Box.
+A parallel track since reading *The Cuckoo's Egg* in 1989. For years my browser homepages were stacked with comp-sec sites for a steady daily read. Around 2013, speculating the scale of hacking operations was about to go thermal, I began experimenting with Backtrack/Kali, Cain & Abel, and related tooling. Subsequentially, I wired and executed exploit chains like Eternal Blue/Double Pulsar in isolation, worked through challenges primarily at PicoCTF, and rooted 14 machines at Hack The Box.
 
 ### AI & LLM inference
 
