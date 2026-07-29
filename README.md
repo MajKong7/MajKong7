@@ -24,11 +24,11 @@ As Chief Operator, I made the daily final call whether orders were good to go �
 
 ### From the metal up
 
-I ran Rabar's mission-critical infrastructure end to end — selecting, administering, and maintaining all production hardware, including servers, switches, firewalls, and the 150 rack servers we housed at USC colo, which I maintained, while research, developing, and debugging continued. 
+I ran Rabar's mission-critical infrastructure end to end — selecting, administering, and maintaining all production hardware, including servers, switches, firewalls, and the 150 rack servers we housed at USC colo, which I maintained. While R&D continued, I executed all daily trade processing and order generation routines. 
 
 ### Security
 
-A parallel track since reading *The Cuckoo's Egg* in 1989. For years my browser homepages were stacked with comp-sec sites for a steady daily read. Around 2013, speculating the scale of hacking operations was about to go thermal, I began experimenting with Backtrack/Kali, Cain & Abel, and related tooling. Subsequentially, I wired and executed exploit chains like Eternal Blue/Double Pulsar in isolation, worked through challenges primarily at PicoCTF, and rooted 14 machines at Hack The Box.
+Reading *The Cuckoo's Egg: Tracking a Spy Through the Maze of Computer Espionage* in 1989, prompted a parallel path of study, computer security. For years my browser homepages were stacked with comp-sec sites for a steady daily read. Around 2013, speculating the scale of hacking operations was about to go thermal, I began experimenting with Backtrack/Kali, Cain & Abel, and related tooling. Subsequentially, I wired and executed exploit chains like Eternal Blue/Double Pulsar in isolation, worked through challenges primarily at PicoCTF, and rooted 14 machines at Hack the Box.
 
 ### AI & LLM inference
 
