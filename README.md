@@ -32,7 +32,7 @@ Reading *The Cuckoo's Egg: Tracking a Spy Through the Maze of Computer Espionage
 
 ### AI & LLM inference
 
-My first LLM work was at BigBear AI — RAG applications and a C/C++ OpenVINO/ONNX inference-optimization engine. More recently, capitalizing on my BBAI experience, I built **BDS (Batch Document Search)**, a private RAG platform on a PySide6 / FastAPI architecture with hybrid ChromaDB retrieval (BGE + BM25, fused via RRF and cross-encoder re-ranking), GLiNER entity extraction, and a knowledge-graph with 97% accurate linkage, i.e. QA fixed all but ~3% of the dangling links, leaving a high fidelity fully-connected graph.
+My first LLM work was at BigBear AI — RAG applications and a C/C++ OpenVINO/ONNX inference-optimization engine. More recently, capitalizing on my BBAI experience, I built **BDS (Batch Document Search)**, a private RAG platform on a PySide6 / FastAPI architecture with hybrid ChromaDB retrieval (BGE + BM25, fused via RRF and cross-encoder re-ranking), GLiNER entity extraction, and a knowledge-graph with 98.2% accurate linkage on a 100-document Boeing/NTSB benchmark, i.e. QA fixed all but ~1.8% of the dangling links, leaving a high fidelity fully-connected graph.
 
 I've benchmarked inference backends — vLLM and llama.cpp — for sustained local serving. On a Windows 10 host running WSL2 (Ubuntu 24.04), llama.cpp proved the more stable under continuous load, avoiding the GPU-wedge failures that bit the alternative. 
 
