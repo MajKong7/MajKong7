@@ -38,15 +38,15 @@ I've benchmarked inference backends — vLLM and llama.cpp — for sustained loc
 
 ### Agentic Orchestration with Hermes/Gemma
 
-VIOSINT — a privacy-first OSINT subsystem now embedded in my BatchDocumentSearch platform. 
+VIOSINT — a privacy-first OSINT subsystem now embedded in my BatchDocumentSearch platform that began as a Kali Python project requiring enhancements. This seemed a good opportunity to see if Hermes could enhance existing features, and add new ones.  
 
-Claude and I, together, planned five test-gated phases, with Claude crafting the prompts, where we used a fully local coding agent, Hermes, running Gemma 4 31B served offline via Ollama, so nothing would leave my hardware. Claude and I monitored everything Hermes was doing until eventually I determined it was time for Claude to take over.
+Claude and I, together, planned five test-gated phases, with Claude crafting the prompts, where we used a fully local coding agent, Hermes, running Gemma 4 31B served offline via Ollama, so nothing would leave my hardware. 
 
-Phase 1 and the adapter scaffolding came out clean, but Phase 2 exposed a subtler failure mode: on small-but-contextual integration work — wiring a single tool adapter into an orchestrator that already existed — the model would narrate what it was about to do, then loop on the narration or edit something adjacent instead of doing it. 
+Phase 1 and the adapter scaffolding came out clean, but Phase 2 exposed a subtler failure mode: on small-but-contextual integration work — wiring a single tool adapter into an orchestrator that already existed — the model would narrate what it was about to do, then loop on the narration or edit something adjacent instead of performing it's prescribed task. I determined it was time for Claude to take over, and get it done.
 
-Hardening the system prompt with explicit "do the work, don't describe it" constraints didn't take. So, at the Phase 2→3 boundary, with the trailing tests green, I passed the baton to Claude Opus and finished phases 3–5, shipping viosint_core as a standalone library. 
+Hardening the system prompt with explicit "do the work, don't describe it" constraints didn't take. So, at the Phase 2→3 boundary, with the trailing tests green, I passed the baton to Claude Opus which finished phases 3–5, shipping VIOSINT Core as a standalone library.
 
-The lesson I kept: mid-project agent handoff is a maneuver, not a failure — recognizing when your AI has stopped converging, and acting on it at a clean boundary, is the human-shaped part of the job.
+The lesson: mid-project agent handoff is a maneuver, not a failure — recognizing when your AI has stopped converging, and acting on it at a clean boundary, is the human-shaped part of the job.
 
 ---
 
