@@ -28,7 +28,7 @@ I ran Rabar's mission-critical infrastructure end to end — selecting, administ
 
 ### Security
 
-A parallel track since reading *The Cuckoo's Egg* in 1989 — for years my browser homepages were stacked with comp-sec sites for a steady daily read. Around 2013, when I realized the scale of hacking operations was about to go thermal. So, I began experimenting with Backtrack/Kali, Cain & Abel, and related. More recently: wiring/executing exploit chains like EternalBlue/DoublePulsar in isolation, working thru various PicoCTF challenges, and rooting 14 machines on Hack The Box.
+A parallel track since reading *The Cuckoo's Egg* in 1989 — for years my browser homepages were stacked with comp-sec sites for a steady daily read. Around 2013, seeing that the scale of hacking operations was about to go thermal, I began experimenting with Backtrack/Kali, Cain & Abel, and related tooling. Since then: wiring and executing exploit chains like Eternal Blue/Double Pulsar in isolation, working through challenges at PicoCTF, and rooting 14 machines on Hack The Box.
 
 ### AI & LLM inference
 
