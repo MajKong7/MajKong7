@@ -38,7 +38,7 @@ I've benchmarked inference backends — vLLM and llama.cpp — for sustained loc
 
 ### Agentic Orchestration with Hermes/Gemma
 
-VIOSINT — a privacy-first OSINT subsystem now embedded in my BatchDocumentSearch platform that began as a Kali Python project requiring enhancements. This seemed a good opportunity to see if Hermes could enhance existing features, and add new ones.  
+VIOSINT — a privacy-first OSINT subsystem now embedded in my BatchDocumentSearch platform began as a Kali Python project requiring enhancements. This seemed a good opportunity to see if Hermes could effectively enhance existing features, and add new ones.  
 
 Claude and I, together, planned five test-gated phases, with Claude crafting the prompts, where we used a fully local coding agent, Hermes, running Gemma 4 31B served offline via Ollama, so nothing would leave my hardware. 
 
