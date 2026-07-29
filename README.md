@@ -28,7 +28,7 @@ I ran Rabar's mission-critical infrastructure end to end — selecting, administ
 
 ### Security
 
-Reading *The Cuckoo's Egg: Tracking a Spy Through the Maze of Computer Espionage* in 1989, prompted a parallel path of study, computer security. For years my browser homepages were stacked with comp-sec sites for a steady daily read. Around 2013, speculating the scale of hacking operations was about to go thermal, I began experimenting with Backtrack/Kali, Cain & Abel, and related tooling. Subsequentially, I wired and executed exploit chains like Eternal Blue/Double Pulsar in isolation, worked through challenges primarily at PicoCTF, and rooted 14 machines at Hack the Box.
+Reading *The Cuckoo's Egg: Tracking a Spy Through the Maze of Computer Espionage* in 1989, prompted a parallel path of study, computer security. For years my browser homepages were stacked with comp-sec sites for a steady daily read. Around 2013, speculating the scale of hacking operations was about to go thermal, I began experimenting with Backtrack/Kali, Cain & Abel, and related tooling. Subsequently, I wired and executed exploit chains like Eternal Blue/Double Pulsar in isolation, worked through challenges primarily at PicoCTF, and rooted 14 machines at Hack the Box.
 
 ### AI & LLM inference
 
