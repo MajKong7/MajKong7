@@ -16,7 +16,7 @@ I built essentially the entire stack: cross-platform HPC simulations, applicatio
 
 The simulators searched for robust systems in two ways. *Brute force* swept a defined set of parameter combinations, then a second program extracted high-performing "neighbor" clusters. *Genetic* search covered a far larger parameter space, locating robust clusters in process.
 
-Accuracy was enforced structurally. We grew from one research group, consisting primarily of myself and Paul, to three groups in three locations: Dr. Francisco Vaca lead our Chicago office R&D, along with another Fermilab physicist, and an engineer, on the East Coast, a mathematician and a programmer, and myself in Los Angeles. 
+Accuracy was enforced structurally. We grew from one research group, consisting primarily of Paul Rabar, a mathematician, another Turtle, with whom we did research, and me, to three groups: Dr. Francisco Vaca lead our Chicago office R&D, along with another Fermilab physicist, and an engineer. On the East Coast, a mathematician and a programmer formed second group, and myself yhe third in Los Angeles. 
 
 No group shared code. Before launching any large simulations runs, i.e. simulations that would be processing a large set of parameter combinations, the system code was re-implemented independently, and results of parameter subset were cross-checked to three decimals. 
 
