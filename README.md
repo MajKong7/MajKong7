@@ -16,8 +16,6 @@ I built essentially the entire stack: cross-platform HPC simulations, applicatio
 
 The simulators searched for robust systems in two ways. *Brute force* swept a defined set of parameter combinations, then a second program extracted high-performing "neighbor" clusters. *Genetic* search covered a far larger parameter space, locating robust clusters in process.
 
-We grew from one research group, consisting primarily of Paul Rabar, a mathematician, another Turtle, with whom we did research, and myself, to three groups: Dr. Francisco Vaca lead our Chicago office R&D, along with another Fermilab physicist, and an engineer. On the East Coast, a mathematician and a programmer formed second group, and me the third in Los Angeles. 
-
 Accuracy was enforced structurally. Three research groups wrote independent code, we shared nothing. Every system concept tested was verified between groups, i.e. at least two groups ran a set of parameter combinations, compared results, and flagged any discrepancies that mismatched at two decimals. All discrepancies were explained, or resolved, before launching any large-scale simulation runs. 
 
 As Chief Operator, I made the daily final call whether orders were good to go — which meant our real-time and simulated positions were an exact match, and every discrepancy was examined and resolved. If good, the orders were sent to New York RMR trading department for execution.
@@ -28,7 +26,7 @@ I ran Rabar's mission-critical infrastructure end to end — selecting, administ
 
 ### Security
 
-Reading *The Cuckoo's Egg: Tracking a Spy Through the Maze of Computer Espionage* in 1989, prompted a parallel path of study, computer security. For years my browser homepages were stacked with comp-sec sites for a steady daily read. Around 2013, speculating the scale of hacking operations was about to go thermal, I began experimenting with Backtrack/Kali, Cain & Abel, and related tooling. Subsequently, I wired and executed exploit chains like Eternal Blue/Double Pulsar in isolation, worked through challenges primarily at PicoCTF, and rooted 14 machines at Hack the Box.
+Reading *The Cuckoo's Egg: Tracking a Spy Through the Maze of Computer Espionage* in 1989, prompted a parallel path of study, computer security. For years my browser homepages were stacked with comp-sec sites for a steady daily read. Around 2013, speculating the scale of hacking operations was about to go thermal, I began experimenting with Backtrack/Kali, Cain & Abel, and related tooling. Subsequently, I wired and executed exploit chains like Eternal Blue/Double Pulsar in isolation, worked through CTF challenges primarily at PicoCTF, and rooted 14 machines at Hack the Box.
 
 ### AI & LLM inference
 
