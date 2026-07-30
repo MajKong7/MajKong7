@@ -10,7 +10,7 @@
 
 ### Systematic futures — the Turtle lineage
 
-For nearly 25 years I was the lead developer and chief operator for Rabar Market Research, Inc., a CTA spawned from the Richard Dennis and Bill Eckhardt Turtle Program. Rabar managed about $90M when I started and roughly $800M at its peak.
+For nearly 25 years I was the lead developer and chief operator for Rabar Market Research, Inc., a CTA spawned from the Richard Dennis and William Eckhardt Turtle Program. Rabar managed about $90M when I started and roughly $800M at its peak.
 
 I built essentially the entire stack: cross-platform HPC simulations, applications to manage price data, order generation, trades, rollovers, and additions/withdrawals. I controlled the "Crown Jewels", i.e. system parameters and weights, portfolio composition and weighting, and account balances and weights.
 
